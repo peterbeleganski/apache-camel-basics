@@ -1,4 +1,4 @@
-package com.my.camel;
+package com.my.camel.custom_routes;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;

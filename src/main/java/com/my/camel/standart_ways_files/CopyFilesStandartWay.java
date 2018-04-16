@@ -1,4 +1,4 @@
-package com.my.camel;
+package com.my.camel.standart_ways_files;
 
 import java.io.*;
 
