@@ -21,11 +21,11 @@ public class ContentBasedRouterTest extends CamelTestSupport {
 
         Thread.sleep(Values.initialMilliSeconds);
         File file = new File("html");
-
         assertTrue(file.isDirectory());
 
         File file2 = new File("text");
         assertTrue(file2.isDirectory());
+
         File file3 = new File("json");
         assertTrue(file3.isDirectory());
     }

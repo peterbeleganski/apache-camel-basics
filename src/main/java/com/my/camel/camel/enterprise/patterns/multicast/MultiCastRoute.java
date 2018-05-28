@@ -15,7 +15,7 @@ public class MultiCastRoute extends RouteBuilder {
     public void configure() throws Exception {
 
         from("file:input?noop=true").multicast().parallelProcessing()
-                .to("file:output1", "file:output2");
+                .to("file:output1", "stream:out");
 
     }
 }

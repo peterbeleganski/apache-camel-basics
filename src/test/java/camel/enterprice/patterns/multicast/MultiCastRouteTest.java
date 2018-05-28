@@ -22,10 +22,7 @@ public class MultiCastRouteTest extends CamelTestSupport {
 
         Thread.sleep(initialMilliSeconds);
         File file = new File("output1");
-
         assertTrue(file.isDirectory());
 
-        File file2 = new File("output1");
-        assertTrue(file2.isDirectory());
     }
 }

@@ -29,12 +29,11 @@ public class WireTapRouteTest extends CamelTestSupport {
     public void wireTapRoute() throws InterruptedException {
 
         Thread.sleep(initialMilliSeconds);
-        File file = new File("all");
 
+        File file = new File("all");
         assertTrue(file.isDirectory());
 
         File fileDebug = new File("debug");
-
         assertTrue(fileDebug.isDirectory());
     }
 }
